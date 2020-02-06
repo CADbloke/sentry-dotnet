@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27705.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentry", "src\Sentry\Sentry.csproj", "{F2486CC8-FAB7-4775-976F-C5A4CF97867F}"
 EndProject
@@ -85,9 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentry.NLog", "src\Sentry.N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentry.NLog.Tests", "test\Sentry.NLog.Tests\Sentry.NLog.Tests.csproj", "{21A360C7-338F-4A9D-A9A3-83152D0C9303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentry.Samples.NLog", "samples\Sentry.Samples.NLog\Sentry.Samples.NLog.csproj", "{DC90D63E-E4F3-40CB-AF6D-2EAEE5F619B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentry.Samples.NLog", "samples\Sentry.Samples.NLog\Sentry.Samples.NLog.csproj", "{DC90D63E-E4F3-40CB-AF6D-2EAEE5F619B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentry.Samples.AspNetCore3.Mvc", "samples\Sentry.Samples.AspNetCore3.Mvc\Sentry.Samples.AspNetCore3.Mvc.csproj", "{3CCB5D82-1D19-4FDE-B92D-CA726C418171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentry.Samples.AspNetCore3.Mvc", "samples\Sentry.Samples.AspNetCore3.Mvc\Sentry.Samples.AspNetCore3.Mvc.csproj", "{3CCB5D82-1D19-4FDE-B92D-CA726C418171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -228,5 +228,18 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C652B1A-DF72-4EE5-A98B-194FE2C054F6}
+	EndGlobalSection
+	GlobalSection(AutomaticVersions) = postSolution
+		UpdateAssemblyVersion = True
+		UpdateAssemblyFileVersion = True
+		UpdateAssemblyInfoVersion = True
+		ShouldCreateLogs = True
+		AdvancedSettingsExpanded = True
+		AssemblyVersionSettings = None.None.None.None
+		AssemblyFileVersionSettings = None.None.None.None
+		AssemblyInfoVersionSettings = None.None.None.None
+		UpdatePackageVersion = False
+		AssemblyInfoVersionType = SettingsVersion
+		InheritWinAppVersionFrom = None
 	EndGlobalSection
 EndGlobal
