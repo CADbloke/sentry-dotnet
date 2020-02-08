@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
     <Version>3.5.234</Version>
+    <FileVersion>3.5.234.20039</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

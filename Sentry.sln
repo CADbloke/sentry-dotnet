@@ -236,8 +236,8 @@ Global
 		ShouldCreateLogs = True
 		AdvancedSettingsExpanded = True
 		AssemblyVersionSettings = None.None.None.None
-		AssemblyFileVersionSettings = None.None.None.None
-		AssemblyInfoVersionSettings = None.None.None.None
+		AssemblyFileVersionSettings = None.None.None.DateStamp
+		AssemblyInfoVersionSettings = None.None.None.DateStamp
 		UpdatePackageVersion = False
 		AssemblyInfoVersionType = SettingsVersion
 		InheritWinAppVersionFrom = None
